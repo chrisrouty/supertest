@@ -1,0 +1,48 @@
+@import 'https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css';
+@import 'https://cdn.jsdelivr.net/npm/@tailwindcss/typography@0.4.1/dist/typography.min.css';
+@import 'https://gitcdn.link/repo/PrismJS/prism-themes/master/themes/prism-vsc-dark-plus.css';
+
+body.prose {
+  margin: 0;
+  max-width: 1000px;
+  padding: 30px;
+}
+
+.prose ol,
+.prose ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.preview-story {
+  border: 1px solid #374151;
+  border-radius: 6px;
+}
+
+.preview-story .story_padded {
+  padding: 15px;
+}
+
+.preview-story details {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top: 1px solid #374151;
+  overflow: hidden;
+}
+
+.preview-story summary {
+  background-color: #e5e7eb;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+
+.preview-story summary:hover {
+  background-color: #d1d5db;
+}
+
+.preview-story pre {
+  border-radius: 0;
+  margin: 0;
+  padding: 15px;
+}
